@@ -14,7 +14,7 @@ const Page = () => {
   const [active, setActive] =  useState(false);
 
   const startDeal = () => {
-    setTimeLeft(5 * 60); // 5 นาที (300 วินาที)
+    setTimeLeft(5 * 60); 
     setActive(true);
   };
   
@@ -56,7 +56,7 @@ const Page = () => {
         color="primary" 
         href="/items/new" 
         sx={{ marginBottom: 2 }}
-        component={Link} // ใช้ Next.js Link
+        component={Link}
       >
         Create New Item
       </Button>
