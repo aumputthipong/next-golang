@@ -30,4 +30,5 @@ func RegisterRoutes() {
 			http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
 		}
 	})
+
 }
